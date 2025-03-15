@@ -35,3 +35,8 @@ def bubble_sort (arr):
             break
 
     return arr #retourne le tableau trié
+
+
+arr = [47,59,638,14,227,4,44,26,99,290,1419]
+print("Tableau trié :" , bubble_sort(arr))
+#Tableau trié : [4, 14, 26, 44, 47, 59, 99, 227, 290, 638, 1419]
